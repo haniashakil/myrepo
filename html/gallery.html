@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYle>
+       .gallery {
+        border:5px solid black ;
+        padding: 10px;
+       }
+       .mygallery{
+        display: inline-block;
+        height:400px ;
+        width: 350px;
+        border: 2px solid black;
+        margin: 10px;
+        }
+       .mygallery img{
+       height: 85%;
+       width: 100%;
+       }
+       .mygallery h3{
+        text-align: center;
+       }
+       /* navbar */
+       body{
+            margin: 0;
+            padding: 0;
+        }
+        .navitem{
+            display: inline-block;
+            list-style-type: none;
+            margin:0 5px;
+        }
+        .navlink{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+            transition: 1s;
+        }
+        .nav{
+            background-color: black;
+            padding: 4px;
+        }
+        .navlink:hover{
+            background-color: white;
+            color: black;
+            
+        }
+        /* navbar */
+    </STYle>
+</head>
+<body>
+<!-- navbar -->
+    <nav>
+        <ul class="nav">
+            <li class="navitem">
+                <a class="navlink" href="">Home</a>
+            </li>
+            <li class="navitem">
+                <a class="navlink" href="">About</a>
+            </li>
+            <li class="navitem">
+                <a class="navlink" href="">Contact</a>
+            </li>
+            <li class="navitem">
+                <li class="navitem">
+                    <a class="navlink" href="">Gallery</a>
+                </li>
+                <a class="navlink" href="">Services</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar -->
+
+    <div class="gallery">
+        <h1 align="center">BASIC GALLERY CARD</h1>
+        <div class="mygallery">
+            <img src="images/jerry.jpeg" alt="">
+            <h3>jerry</h3>
+        </div>
+        <div class="mygallery">
+            <img src="images/jpic.jpg" alt="">
+            <h3>jerry2</h3>
+        </div>
+        <div class="mygallery">
+            <img src="images/tandg.jpg" alt="">
+            <h3>jerry and tom</h3>
+        </div>
+        <div class="mygallery">
+            <img src="images/tgpic.jpg" alt="">
+            <h3>tom and jerry</h3>
+        </div>
+        <div class="mygallery">
+            <img src="images/tomandjerry.jpeg" alt="">
+            <h3>tomjerry</h3>
+            <div class="mygallery">
+                <img src="images/tomjerry.jpeg" alt="">
+                <h3>jerrytom</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animatediv{
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+            animation-name: myanim;
+            animation-duration: 10s;
+        }
+        @keyframes myanim{
+            0%{
+                background-color: aqua;
+                margin-top: 0;
+                margin-left: 0;
+            }
+            25%{
+                background-color: blueviolet;
+                margin-top: 0;
+                margin-left: 300px;
+            }
+            50%{
+                background-color: palevioletred;
+                margin-top: 300px;
+                margin-left: 300px;
+            }
+            75%{
+                background-color: yellowgreen;
+                margin-top: 300px;
+                margin-left: 0;
+            }
+            100%{
+                background-color: aqua;
+                margin-top: 0;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animatediv">
+        <img src="images/tomandjerry.jpeg" alt="">
+    </div>
+</body>
+</html>
